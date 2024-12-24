@@ -8,15 +8,18 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-        </div>
         <p>
-            &nbsp;</p>
+            SUM+&nbsp;&nbsp;&nbsp;
+        </p>
+        <p>
+            <asp:TextBox ID="TextBox1" runat="server" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
+            Number 1</p>
+        <p>
+            <asp:TextBox ID="TextBox2" runat="server" OnTextChanged="TextBox2_TextChanged"></asp:TextBox>
+            Number 2</p>
         <p>
             <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Press" Width="85px" />
         </p>
-        <p>
-            &nbsp;</p>
     </form>
 </body>
 </html>

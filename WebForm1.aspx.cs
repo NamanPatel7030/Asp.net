@@ -16,7 +16,25 @@ namespace WebApplication1
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Response.Write("Hello");
+            int num1 = int.Parse(TextBox1.Text);
+            int num2 = int.Parse(TextBox2.Text);
+           
+
+            var total = num1 + num2;
+
+            
+
+            Response.Write(total);
+        }
+
+        protected void TextBox2_TextChanged(object sender, EventArgs e)
+        {
+               
+        }
+
+        protected void TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
