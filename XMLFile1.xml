@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+
+<Advertisements>
+	<Ad>
+	<ImageUrl>n.jpg</ImageUrl>
+	<Keyword>Technology</Keyword>
+	<NavigateUrl>www.google.com</NavigateUrl>
+	<AlternateText>Hello</AlternateText>
+	<Impression>3</Impression>
+
+	</Ad>
+	
+	</Advertisements>

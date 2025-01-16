@@ -69,11 +69,14 @@
   <ItemGroup>
     <Content Include="autopost.aspx" />
     <Content Include="Home.aspx" />
+    <Content Include="n.jpg" />
     <Content Include="Temprature.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
     <Content Include="WebForm2.aspx" />
     <Content Include="WebForm3.aspx" />
+    <Content Include="WebForm4.aspx" />
+    <Content Include="XMLFile1.xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="autopost.aspx.cs">
@@ -118,6 +121,13 @@
     </Compile>
     <Compile Include="WebForm3.aspx.designer.cs">
       <DependentUpon>WebForm3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm4.aspx.cs">
+      <DependentUpon>WebForm4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm4.aspx.designer.cs">
+      <DependentUpon>WebForm4.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -10,10 +10,11 @@
 <body>
     <form id="form1" runat="server">
         <div>
+           
             <h1>Assignment-1</h1>
            <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">22SOECE11022_Naman Gundaniya</a>
+    <a class="navbar-brand" href="#">22SOECE11046_Harshal Rupala</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -31,12 +32,19 @@
           <li class="nav-item">
         <a class="nav-link active" aria-current="page" href="autopost.aspx">Autopost</a>
         </li>
-        commit
+        
       </ul>
     </div>
   </div>
 </nav>
+
+            
         </div>
+        <p>
+            &nbsp;</p>
+       <%-- <p>
+            <asp:AdRotator ID="AdRotator1" runat="server" AdvertisementFile="~/XMLFile1.xml" />
+        </p>--%>
     </form>
 </body>
 </html>
